@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+.header {
+  background-color: #F5F5F5;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 400px;
+
+}
+.bar input[type=text] {
+
+  padding: 6px;
+
+  font-size: 17px;
+}
+
+.bar{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+
+  padding: 10px;
+}
+
+.grid-container > div {
+
+height: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+.bar img {
+  margin: 5px;
+}
+
+.sbar {
+
+}

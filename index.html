@@ -1,202 +1,331 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <title></title>
-    <script src="https://use.fontawesome.com/86c98bd8a9.js"></script>
   </head>
 
   <body>
     <div class="header">
-      <div class="top">
-        <img src="res/img01.png" alt="img1" class="img1" />
-        <input type="text" placeholder="Search" class="input" />
-        <a href="#home">home</a>
-        <a href="#about">about</a>
-        <a href="#shop">shop</a>
-        <a href="#help">help</a>
-        <a href="#cart" class="cart">Cart</a>
-      </div>
+      <div class="flex1">
+        <span class="image"><img src="assets/upshift.png" alt="flex1" /></span>
 
-      <div class="tag">
-        <h2>The World Shops Here</h2>
-        <hr />
+        <label class="label">
+          <input type="radio" name="radio" />
+          Personal
+          <!-- <span class="checkmark"></span> -->
+        </label>
+        <label class="label">
+          <input type="radio" name="radio" />
+          Business
+          <!-- <span class="checkmark"></span> -->
+        </label>
+      </div>
+      <div class="flex2">
+        <span>
+          <a href="#Login">About</a>
+        </span>
+        <span>
+          <a href="#Login">Pricing</a>
+        </span>
+        <span>
+          <a href="#Login">FAQ</a>
+        </span>
+        <span>
+          <a href="#Login">ContactUs</a>
+        </span>
+      </div>
+      <div class="flex3">
+        <span>
+          <a href="#Login">Login</a>
+        </span>
+        <span class="joinNow">
+          <button href="#JoinNow" class="join">Join Now</button>
+        </span>
+      </div>
+    </div>
 
-        <div class="gall1">
-          <span>
-            <img src="res/img02.png" alt="img2" />
-          </span>
-          <span>
-            <img src="res/img02.png" alt="img2" />
-          </span>
-          <span>
-            <img src="res/img02.png" alt="img2" />
-          </span>
-        </div>
-        <div class="shopbutt">
-          <span class="shop">
-            <a href="#shop">Shop Now</a>
-          </span>
-        </div>
-      </div>
-    </div>
-    <div class="content1">
-      <h2>Featured Products</h2>
-      <div class="imgcont">
-        <div class="image">
-          <img src="res/img03.png" alt="img3" />
-        </div>
-        <div class="image">
-          <img src="res/img03.png" alt="img3" />
-        </div>
-        <div class="caption">Airpods</div>
-        <div class="caption">Apple Watch</div>
-        <div class="caption">$29.99</div>
-        <div class="caption">$56.99</div>
-      </div>
-    </div>
-    <div class="content2">
-      <div class="content2left">
-        <h2>Newsletter</h2>
-        <p>
-          Subscribe the newsletter to get the latest gossip about tech world and
-          be eligible for exclusive offers only for you.
-        </p>
-      </div>
-      <div class="content2right">
-        <div>
-          <input type="text" placeholder="email" />
-        </div>
-        <div>
-          <button>subscribe</button>
-        </div>
-      </div>
-    </div>
-    <div class="content3">
-      <div class="item1">
-        <div class="image">
-          <img src="res/img04.png" alt="img4" />
-        </div>
-        <div class="caption">
-          <div class="div1">item 1</div>
-          <div class="div2">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star-half-o" aria-hidden="true"></i>
-          </div>
-        </div>
-      </div>
-      <div class="square">
-        <div>
-          <img src="res/img04.png" alt="img4" />
-        </div>
-        <div class="caption">
-          <div class="div1">item 1</div>
-          <div class="div2">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star-half-o" aria-hidden="true"></i>
-          </div>
-        </div>
-      </div>
-      <div class="square">
-        <div>
-          <img src="res/img04.png" alt="img4" />
-        </div>
-        <div class="caption">
-          <div class="div1">item 2</div>
-          <div class="div2">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star-o" aria-hidden="true"></i>
-          </div>
-        </div>
-      </div>
-      <div class="square">
-        <div>
-          <img src="res/img04.png" alt="img4" />
-        </div>
-        <div class="caption">
-          <div class="div1">item 3</div>
-          <div class="div2">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star-half-o" aria-hidden="true"></i>
-            <i class="fa fa-star-o" aria-hidden="true"></i>
-          </div>
-        </div>
-      </div>
-      <div class="square">
-        <div>
-          <img src="res/img04.png" alt="img4" />
-        </div>
-        <div class="caption">
-          <div class="div1">item 4</div>
-          <div class="div2">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star-o" aria-hidden="true"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="content4">
-      <h2>your go to place for tech gadgets</h2>
-      <p>
-        Don't miss out any new technology trends, we will be your go to source
-        for your every gadget needs
-      </p>
-    </div>
-    <div class="footer">
+    <div class="hero">
       <div class="left">
-        <img src="res/img06.png" alt="img06" />
-        <div class="caption">
-          <p>1717 Harrison St. San Fransisco, CA 94103, USA</p>
+        <div>
+          <h2>Just Drive</h2>
+          <h2>We'll do the rest</h2>
+        </div>
+        <div>
+          <p>All inclusive usage based car subscriptions</p>
+        </div>
+        <div class="form">
+          <form action="#submit">
+            <input
+              type="text"
+              placeholder="Phone Number"
+              id="fname"
+              name="fname"
+            />
+            <button>Get started</button>
+          </form>
+        </div>
+      </div>
+      <div class="right"></div>
+    </div>
+    <div class="logos">
+      <img class="img" src="assets/Business insider.png" alt="" />
+
+      <img class="img" src="assets/wired.png" alt="" />
+
+      <img class="img" src="assets/Logo-URBAN-X.png" alt="" />
+
+      <img class="img" src="assets/metropolis1.png" alt="" />
+
+      <img class="img" src="assets/curbed.png" alt="" />
+
+      <img class="arrow" src="assets/arrow.png" alt="" />
+    </div>
+    <div class="info">
+      <div class="left">
+        <div class="container">
+          <div class="box">
+            <img src="assets/cross.png" alt="" />
+          </div>
+          <div class="box overlay">
+            <div class="text">
+              <p>
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
+                velit iure, enim sapiente laborum. Adipisci, quia!"
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="right">
+        <span class="head"> 01 ---- About Us </span>
+        <span class="banner"> Let's make cities better </span>
+        <span class="text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi quasi
+          cumque exercitationem laudantium, fugiat porro quibusdam accusamus
+          veniam quisquam ab optio quaerat doloremque laboriosam iure, enim
+          sapiente laborum. Adipisci, quia sit amet consectetur adipisicing
+          elit. Animi quasi cumque exercitationem laudantium fugiat porro
+          quibusdam accusamus veniam quisquam ab optio quaerat!
+        </span>
+        <hr />
+        <div class="logo">
+          <span class="image">
+            <img src="assets/pngfind.com-cross-sign-png-5948830.png" alt="" />
+          </span>
+
+          <span class="text"><strong>Learn more about company</strong></span>
+        </div>
+      </div>
+    </div>
+    <p class="howitworks">02 ---- how it works</p>
+    <div class="works">
+      <div class="section-3-outer">
+        <div class="left-section-3">
+          <p>simple and handy rental process</p>
+        </div>
+        <div class="right-section-3">
+          <p class="para">Seat covers, alloy wheels, fog lights on requests</p>
+          <hr />
+          <div class="logo">
+            <span class="image">
+              <img src="assets/pngfind.com-cross-sign-png-5948830.png" alt="" />
+            </span>
+
+            <span class="text"><strong>Check the accesories</strong></span>
+          </div>
+        </div>
+        <div class="right-section-3">
+          <p class="para">For queries Contact us or visit our help center</p>
+          <hr />
+          <div class="logo">
+            <span class="image">
+              <img src="assets/pngfind.com-cross-sign-png-5948830.png" alt="" />
+            </span>
+
+            <span class="text"><strong>Read our Faq</strong></span>
+          </div>
+        </div>
+      </div>
+      <div class="cardcontainer">
+        <div class="cardOdd">
+          <img src="assets/cross.png" alt="" />
+          <div>
+            <h3>Text us</h3>
+          </div>
+          <div>
+            <p>
+              text us when you want your car no app needed. Just an online
+              account.
+            </p>
+          </div>
+        </div>
+        <div class="cardEven">
+          <img src="assets/cross.png" alt="" />
+          <div>
+            <h3>We deliver</h3>
+          </div>
+          <div>
+            <p>
+              your car will be delivered at your door, cleaned and fully fueled
+            </p>
+          </div>
+        </div>
+        <div class="cardOdd">
+          <img src="assets/cross.png" alt="" />
+          <div>
+            <h3>You drive</h3>
+          </div>
+          <div>
+            <p>
+              hop in get your car insured. Hassle free process. No upfront
+              payment
+            </p>
+          </div>
+        </div>
+        <div class="cardEven">
+          <img src="assets/cross.png" alt="" />
+          <div>
+            <h3>We pick it up</h3>
+          </div>
+          <div>
+            <p>
+              It is yours for few hours or few days. Return on your own time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pricing">
+      <div class="pricingCard">
+        <h3>FlexPass</h3>
+        <p>get 2 days/month</p>
+        <h2>$149/month</h2>
+        <hr />
+        <p>
+          not sure how much you drive ? get a magic button every time you need a
+          car
+        </p>
+        <button>Start with flexpass</button>
+        <a href="#Flexpass">View plan details</a>
+      </div>
+      <div class="pricingCard shadow">
+        <h3>FlexPass</h3>
+        <p>get 2 days/month</p>
+        <h2>$149/month</h2>
+        <hr />
+        <p>
+          not sure how much you drive ? get a magic button every time you need a
+          car
+        </p>
+        <button>Start with flexpass</button>
+        <a href="#Flexpass">View plan details</a>
+      </div>
+      <div class="pricingCard">
+        <h3>FlexPass</h3>
+        <p>get 2 days/month</p>
+        <h2>$149/month</h2>
+        <hr />
+        <p>
+          not sure how much you drive ? get a magic button every time you need a
+          car
+        </p>
+        <button>Start with flexpass</button>
+        <a href="#Flexpass">View plan details</a>
+      </div>
+    </div>
+    <div class="grey">
+      <div class="content5">
+        <div class="left">
+          <span class="head"> 05 ---- About The Car </span>
+          <span class="banner"> Always drive an identical prius </span>
+          <span class="text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
+            quasi cumque exercitationem laudantium, fugiat porro quibusdam
+            accusamus veniam quisquam ab option !
+          </span>
+          <hr />
+          <div class="logo">
+            <span class="image">
+              <img src="assets/pngfind.com-cross-sign-png-5948830.png" alt="" />
+            </span>
+
+            <span class="text"><strong>Learn more about company</strong></span>
+          </div>
+        </div>
+        <div class="right">
+          <div class="top">
+            <img src="assets/cross.png" alt="" />
+          </div>
+          <div class="bottom">
+            <div class="img">
+              <img src="assets/cross.png" alt="" />
+            </div>
+            <div class="img">
+              <img src="assets/cross.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="joinnow">
+        <div class="left">
+          <h3>
+            Join instantly with $0 down payment and get your car right now
+          </h3>
+        </div>
+        <div class="right">
+          <button>Join Now</button>
+        </div>
+      </div>
+      <hr style="width: 80%; margin: auto" />
+      <div class="last">
         <table>
           <tr>
-            <th>Main Menu</th>
-            <th>Company</th>
-            <th>Discover</th>
-            <th>Find us on</th>
-          </tr>
-
-          <tr>
-            <td>home</td>
-            <td>the company</td>
-            <td>team</td>
-            <td>facebook</td>
+            <td>product</td>
+            <td>company</td>
+            <td>help center</td>
+            <td>stay in touch</td>
           </tr>
           <tr>
+            <td>personal</td>
             <td>about</td>
-            <td>careers</td>
-            <td>our history</td>
-            <td>twitter</td>
+            <td>FAQ</td>
+            <td><p>join our mailing list</p></td>
           </tr>
           <tr>
-            <td>shop</td>
-            <td>press</td>
-            <td>brand motto</td>
-            <td>instagram</td>
+            <td>business</td>
+            <td>blog</td>
+            <td>insurance</td>
+            <td><input type="text" placeholder="Email Address" /></td>
+          </tr>
+          <tr>
+            <td>pricing</td>
+            <td>careers</td>
+            <td>agreement</td>
+          </tr>
+          <tr>
+            <td>login</td>
+            <td>contact us</td>
           </tr>
         </table>
       </div>
-    </div>
-    <div class="copyright">
-      <p>© TECH EXPERTS</p>
+      <div class="footer">
+        <div class="logo">
+          <img src="assets/upshift.png" alt="" />
+        </div>
+        <div>
+          <p>Copyright © 2019 Upshift, Inc</p>
+        </div>
+        <div class="logo">
+          <img
+            src="assets/PinClipart.com_social-networking-clipart_3234191.png"
+            alt=""
+          />
+        </div>
+      </div>
     </div>
   </body>
 </html>
